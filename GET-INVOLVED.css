@@ -1,0 +1,665 @@
+body
+{
+	margin:0px;
+	background-color:#ffffff;
+}
+
+
+
+
+/**NAVBAR**/
+/*Full-width top header*/
+#gen-nav 
+{
+	background-color:#e65950;
+	font-family:'Open Sans', sans-serif;
+	text-transform:uppercase;
+	padding: 15px 30px;
+}
+
+/*flex container for logo AND links*/
+#nav-container 
+{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+
+/*logo styling*/
+#nav-logo img 
+{
+	
+	width:50px;
+}
+
+/*nav links container*/
+#nav-links 
+{
+	display:inline-block;
+	font-size:15px;
+}
+
+/*individual nav links*/
+#nav-links a 
+{
+	color:#ffffff;
+	text-decoration:none;
+	font-weight:bold;
+	transition:1s;
+	text-transform:uppercase; 
+}
+
+/*transition*/
+#nav-links a:hover 
+{
+  opacity:1s;
+}
+
+
+
+
+
+
+
+
+
+
+/**GET INVOLVED**/
+#banner
+{
+	background-color:#f5e8a1;
+	padding-top:20px;
+	padding-bottom:20px;
+	text-align:center;
+	font-family: Open Sans;
+
+}
+
+#banner h1
+{
+	margin: 0px;
+}
+
+#banner p
+{
+	margin:0px;
+}
+
+
+
+
+
+
+
+
+
+
+/**VOLUNTEER OPPORTUNITIES**/
+#VolOp
+{
+	margin:0px;
+	background-color:#ffffff;
+	text-align:center;
+	font-family:'Nunito', sans-serif;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+#VolOp h1
+{
+	margin:0px;
+	color:#bc221f;
+}
+
+#VolOp p
+{
+	margin:0px;
+	color:#000000;
+}
+
+#rectangle-container
+{
+	background-color:#ffffff;
+	padding:50px;
+}
+
+.rectangle-row 
+{
+	display:flex;
+	justify-content:center;
+	gap:40px; /* space between boxes */
+	margin-bottom:40px;
+}
+
+.rectangle 
+{
+	background-color:#b0d0e5;
+	border-radius:10px;
+	padding:30px;
+	height:300px;
+	width:250px;
+	text-align:left;
+	font-family:'Open Sans', sans-serif;
+}
+
+.rectangle b
+{
+	font-size:15px;
+}
+
+.rectangle strong
+{
+	color:#ff3131;
+	font-size:10px;
+}
+
+.rectangle p
+{
+	color:#000000;
+	font-size:15px;
+}
+
+.rectangle ul
+{
+	font-size:15px;
+	margin-top:0px;
+	padding-left: 20px;
+}
+
+#rectangle-container .volunteer-button
+{
+  background-color: #e65950; /* red */
+  color: #ffffff; /* white text */
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**VOLUNTEER OPPORTUNITIES**/
+#FunDon
+{
+	background-color:#f5e8a1;
+	text-align:center;
+	padding-top:20px;
+	border: #ffffff solid 30px;
+	font-family: 'Nunito', sans-serif;
+}
+
+#FunDon h1
+{
+	margin:0px;
+	color:#bc221f;
+}
+
+#FunDon p
+{
+	margin:0px;
+	color:#000000;
+}
+
+.fundraise-container 
+{
+  display:flex;
+  justify-content:center;
+  gap:40px;
+  flex-wrap:wrap; /* optional for responsiveness */
+}
+
+.fundraise-wrapper 
+{
+  border-radius: 20px;
+  margin: 0 auto;        /* Remove top margin */
+  max-width: 900px;
+  padding-top: 0;        /* Optional: make sure no padding above */
+}
+
+.fundraise-container 
+{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.fundraise-column 
+{
+  width: 300px;
+  height:300px;
+  font-family: 'Nunito', sans-serif;
+  border-radius: 15px;
+  text-align: center;
+}
+
+/* Donation grid layout inside the left column */
+.donation-grid 
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.donation-box 
+{
+  background-color: #b0d0e5;
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**5**/
+#Partner
+{
+	margin:0px;
+	background-color:#004aad;
+	text-align:center;
+	font-family: 'Open Sans' sans-serif;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+#Partner h3
+{
+	margin:0px;
+	color:#ffffff;
+}
+
+#Partner p
+{
+	margin:0px;
+	color:#ffffff;
+}
+
+#Partner label
+{
+	color:#ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+/**6*/
+#Adopt
+{
+	margin:0px;
+	background-color:#ffffff;
+	text-align:center;
+	font-family: 'Nunito', sans-serif;
+	padding-top:5px;
+}
+
+#Adopt h1
+{
+	margin:0px;
+	color:#bc221f;
+}
+
+#Adopt p
+{
+	margin:0px;
+	color:#000000;
+	padding-bottom:10px;
+}
+
+#navi
+{
+	background-color:#d9d9d9;
+	padding:10px;
+	margin:0px;
+}
+
+#navi a
+{
+	color:#000000;
+	padding:10px 30px;
+}
+
+#navi li
+{
+	margin:0px;
+	display:inline-block;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+/**7**/
+#Adopt2
+{
+	margin:0px;
+	background-color:#f5e8a1;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+#Adopt2 h1
+{
+	margin:0px;
+	color:#000000;
+	text-align:left;
+	padding-left:70px;
+	font-family:'Open Sans' sans-serif;
+}
+
+#Adopt2 p
+{
+	margin:0px;
+	color:#000000;
+	padding-bottom:10px;
+}
+
+.circled-number1
+{
+    display: inline-block;
+    width: 30px;
+    height: 30px; 
+    line-height: 30px; 
+    border-radius: 50%;
+    text-align: center;
+    background-color:#004aad;
+    color: white; 
+    font-weight: bold; 
+	margin:5px;
+}
+
+.circled-number2
+{
+    display: inline-block;
+    width: 30px;
+    height: 30px; 
+    line-height: 30px; 
+    border-radius: 50%;
+    text-align: center;
+    background-color:#284a9e;
+    color: white; 
+    font-weight: bold; 
+	margin:5px;
+}
+
+#circled-number-container
+{
+  text-align: left;
+  padding-left:60px;
+}
+
+
+/**8**/	
+#SYV
+{
+	background-color:#f2f1eb;
+	text-align:center;
+	border: #ffffff solid 30px;	
+	font-family: 'Nunito', sans-serif;
+}
+
+#SYV h1
+{
+	margin:0px;
+	color:#bc221f;
+	padding-top:20px;
+}
+
+#SYV p
+{
+	margin:0px;
+	color:#000000;
+	padding-bottom:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+/**9**/
+.StartaSocialMediaCampaign
+{
+	margin-top:0px;
+	background-color:#ffffff;
+	padding:30px;
+}
+
+.StartaSocialMediaCampaign .middle-layer 
+{
+  background-color:#f2f1eb;
+  padding:30px;
+}
+
+.StartaSocialMediaCampaign .inner-box 
+{
+  background-color: #ffffff;
+  text-align:center;
+  font-family:'Nunito', sans-serif;
+  padding:20px;
+  border-radius: 10px;
+}
+
+/* Optional: Styling for heading and paragraph */
+.StartaSocialMediaCampaign .inner-box h3 {
+  margin: 0;
+  color: #000000;
+  padding-top: 20px;
+}
+
+.StartaSocialMediaCampaign .inner-box p {
+  margin: 0;
+  color: #000000;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+
+/* Button container for spacing */
+.StartaSocialMediaCampaign .button-group 
+{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Red buttons with white text and rounded corners */
+.StartaSocialMediaCampaign .campaign-button 
+{
+  background-color: #e65950; /* red */
+  color: #ffffff; /* white text */
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+/* Optional: hover effect */
+.StartaSocialMediaCampaign .campaign-button:hover {
+  background-color: #c94840; /* darker red on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**FOOTER**/
+/**Entire footer section**/
+.site-footer 
+{
+	margin:0px;
+	background-color: #dd0000;
+	color: #ffffff;
+	font-family: 'Nunito', sans-serif;
+}
+
+/* Flex container for 3 columns */
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/* Each column */
+.footer-column {
+  flex: 1;
+  min-width: 220px;
+}
+
+/* First column only */
+.footer-column-1 h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+
+/* All other h4s: remove border line */
+.footer-column h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: none;
+  padding-bottom: 0;
+}
+
+/* Logo + Project Name (inline) */
+.footer-logo-line {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-logo {
+  width: 40px;
+  height: auto;
+}
+
+.project-name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Tagline */
+.footer-tagline {
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+/* Location logos */
+.footer-icons img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+/* Lists (2nd & 3rd columns) */
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin: 6px 0;
+}
+
+.footer-column ul li a {
+  color: white;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.footer-column ul li a:hover {
+  opacity: 0.8;
+}
+
+/* Bottom horizontal line */
+.footer-line {
+  width: 80%;
+  border: none;
+  border-top: 1px solid white;
+  margin: 40px auto 10px auto;
+}
+
+/* Footer credits */
+.footer-credits {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 0;
+  opacity: 0.9;
+}
+
+
