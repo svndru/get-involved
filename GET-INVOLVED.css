@@ -14,7 +14,7 @@ body
 	background-color:#e65950;
 	font-family:'Open Sans', sans-serif;
 	text-transform:uppercase;
-	padding: 15px 30px;
+	padding:20px;
 }
 
 /*flex container for logo AND links*/
@@ -30,6 +30,7 @@ body
 {
 	
 	width:50px;
+	height:50px;
 }
 
 /*nav links container*/
@@ -192,13 +193,13 @@ body
 
 
 /**VOLUNTEER OPPORTUNITIES**/
-#FunDon
-{
-	background-color:#f5e8a1;
-	text-align:center;
-	padding-top:20px;
-	border: #ffffff solid 30px;
-	font-family: 'Nunito', sans-serif;
+#FunDon {
+  background-color: #f5e8a1;
+  text-align: center;
+  padding: 30px;
+  border: 30px solid #ffffff;
+  height:1400px;
+  font-family: 'Nunito', sans-serif;
 }
 
 #FunDon h1
@@ -213,55 +214,125 @@ body
 	color:#000000;
 }
 
-.fundraise-container 
-{
-  display:flex;
-  justify-content:center;
-  gap:40px;
-  flex-wrap:wrap; /* optional for responsiveness */
+.fundraise-column {
+  width: 48%;
+  text-align: left;
 }
 
-.fundraise-wrapper 
-{
-  border-radius: 20px;
-  margin: 0 auto;        /* Remove top margin */
-  max-width: 900px;
-  padding-top: 0;        /* Optional: make sure no padding above */
+.fundraise-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-.fundraise-container 
-{
+.fundraise-container {
   display: flex;
-  justify-content: center;
-  gap: 40px;
+  justify-content: space-between;
+  gap: 30px;
   flex-wrap: wrap;
 }
 
-.fundraise-column 
-{
-  width: 300px;
-  height:300px;
-  font-family: 'Nunito', sans-serif;
-  border-radius: 15px;
-  text-align: center;
-}
 
-/* Donation grid layout inside the left column */
-.donation-grid 
-{
+
+/* === Donation Grid === */
+.donation-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 15px;
   margin-top: 20px;
 }
 
-.donation-box 
-{
-  background-color: #b0d0e5;
+.donation-box {
+  background-color: #fff;
   padding: 15px;
   border-radius: 10px;
   font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
+
+.donation-box::before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-color: gold;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* === Quantity Controls === */
+.quantity-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.quantity-control button {
+  padding: 5px 10px;
+}
+
+.quantity-control input {
+  width: 40px;
+  text-align: center;
+}
+
+/* === Donate Button === */
+.donate-button {
+  background-color: #e33d14;
+  color: white;
+  font-weight: bold;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+/* === Fundraising Ideas === */
+.ideas-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.idea-box {
+  background-color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.idea-box::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: #3366cc;
+  border-radius: 50%;
+  margin-top: 5px;
+  flex-shrink: 0;
+}
+
+/* === CTA Button === */
+.cta-button 
+{
+  margin-top: 30px;
+  background-color: #f5e8a1;
+  color: black;
+  font-weight: bold;
+  padding: 15px 40px;
+  border-radius: 25px;
+  border: 3px solid #e33d14;
+  cursor: pointer;
+}
+
+
+
 
 
 
@@ -320,7 +391,7 @@ body
 	background-color:#ffffff;
 	text-align:center;
 	font-family: 'Nunito', sans-serif;
-	padding-top:5px;
+	padding-top:20px;
 }
 
 #Adopt h1
@@ -339,14 +410,14 @@ body
 #navi
 {
 	background-color:#d9d9d9;
-	padding:10px;
+	padding:10px 20px;
 	margin:0px;
 }
 
 #navi a
 {
 	color:#000000;
-	padding:10px 30px;
+	padding:10px;
 }
 
 #navi li
