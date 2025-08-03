@@ -37,7 +37,6 @@ body
 #nav-links 
 {
 	display:inline-block;
-	font-size:15px;
 }
 
 /*individual nav links*/
@@ -45,6 +44,7 @@ body
 {
 	color:#ffffff;
 	text-decoration:none;
+	margin-right:25px;
 	font-weight:bold;
 	transition:1s;
 	text-transform:uppercase; 
@@ -104,6 +104,7 @@ body
 	font-family:'Nunito', sans-serif;
 	padding-top:20px;
 	padding-bottom:20px;
+	height:20px;
 }
 
 #VolOp h1
@@ -192,12 +193,13 @@ body
 
 
 
-/**VOLUNTEER OPPORTUNITIES**/
+/**FUNDRAISE AND DONATE**/
 #FunDon {
-  background-color: #f5e8a1;
+	margin:0px;
+	background-color: #f5e8a1;
   text-align: center;
-  padding: 30px;
-  border: 30px solid #ffffff;
+  padding: 20px;
+  border: 50px solid #ffffff;
   height:1400px;
   font-family: 'Nunito', sans-serif;
 }
@@ -267,16 +269,17 @@ body
   align-items: center;
   justify-content: center;
   gap: 10px;
-  margin: 20px 0;
+  margin:20px;
 }
 
 .quantity-control button {
-  padding: 5px 10px;
+  padding: 10px 5px;
 }
 
 .quantity-control input {
   width: 40px;
   text-align: center;
+  padding: 10px 5px;
 }
 
 /* === Donate Button === */
@@ -288,6 +291,9 @@ body
   border: none;
   border-radius: 25px;
   cursor: pointer;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 /* === Fundraising Ideas === */
@@ -321,14 +327,17 @@ body
 /* === CTA Button === */
 .cta-button 
 {
-  margin-top: 30px;
-  background-color: #f5e8a1;
-  color: black;
-  font-weight: bold;
-  padding: 15px 40px;
-  border-radius: 25px;
-  border: 3px solid #e33d14;
-  cursor: pointer;
+	margin-top: 30px;
+	background-color: #f5e8a1;
+	color: black;
+	font-weight: bold;
+	padding: 15px 40px;
+	border:3px solid #e33d14;
+	border-radius: 25px;
+	cursor: point;
+	display: block;         /* Makes it a block element */
+	width: 100%;            /* Fills the parent container */
+	box-sizing: border-box; /* Ensures padding fits inside width */
 }
 
 
